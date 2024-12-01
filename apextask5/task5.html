@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the beauty and diversity of Indian tourism through our comprehensive web app.">
+    <title>Indian Tourism</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+   
+    <header>
+        <div class="container">
+            <h1>Explore Indian Tourism</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Incredible India</h2>
+            <p>Discover the culture, heritage, and beauty of India.</p>
+            <a href="#contact" class="btn">Plan Your Visit</a>
+        </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="image-grid">
+                <img src="https://th.bing.com/th?id=OIP.TXlEs3JCXlV4WxCwadThrwHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.j21WwQGOaPP0vxve-q2SugHaE7?w=288&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.jzBjkjo_CkQhhxTeTz9YgAHaFj?w=90&h=90&c=1&rs=1&qlt=90&r=0&dpr=1.3&pid=InlineBlock">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.2z3BU9v7F9htHwjvWx4e5AHaEo?rs=1&pid=ImgDetMain">
+                <img src="https://th.bing.com/th/id/OIP.xpGx2noVsQTs1ecMKK845AHaFA?rs=1&pid=ImgDetMain">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Blog</h2>
+            <article class="blog-post">
+                <h3><b>Exploring the Taj Mahal</b></h3>
+                <p><b>The Taj Mahal, a UNESCO World Heritage site, is a symbol of love and an architectural masterpiece.</b></p>
+                <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="read-more">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h3><b>Explore the Tranquil Backwaters of Kerala</b></h3>
+                <p><b>Experience serenity in Kerala's backwaters, a network of canals, rivers, and lakes.</b></p>
+                <a href="https://en.wikipedia.org/wiki/Kerala_backwaters" class="read-more">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h3><b> Explore the Indian Himalayan Region</b></h3>
+                <p><b>The Indian Himalayan Region (abbreviated to IHR) is the section of the Himalayas within the Republic of India, spanning thirteen Indian states and union territories.</b></p>
+                <a href="https://en.wikipedia.org/wiki/Indian_Himalayan_Region" class="read-more">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h3><b>Explore the Udaipurtour</b></h3>
+                <p><b>Udaipur (Hindi: IPA: [ʊdəjpʊɾ], pronunciationⓘ) (ISO 15919: Udayapura) is a city in the north-western Indian state of Rajasthan, about 415 km (258 mi) south of the state capital Jaipur.</b></p>
+                <a href="https://en.wikipedia.org/wiki/Udaipur" class="read-more">Read More </a>
+            </article>
+            <article class="blog-post">
+                <h3>Explore Delhi</h3>
+                <p><b>Delhi,[a] officially the National Capital Territory (NCT) of Delhi, is a city and a union territory of India containing New Delhi, the capital of India.</b> </p>
+                <a href="https://en.wikipedia.org/wiki/Delhi" class="read-more">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Indian Tourism. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
